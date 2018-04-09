@@ -1,0 +1,14 @@
+#debug {
+  position: absolute;
+  top: 50px;
+  visibility: hidden;
+}
+
+#debug span {
+  padding: 5px;
+  border-left: 2px solid;
+}
+
+#debug span:first-child {
+  border-left: none;
+}

@@ -1,0 +1,39 @@
+.menu {
+  height: 100vh;
+  width: 100vw;
+  visibility: hidden;
+}
+
+.menu.active {
+  visibility: visible;
+}
+
+.menu .items {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  margin: auto;
+  padding: 20px;
+  background: #FFF;
+  border-radius: 2px;
+  filter: blur(1.5px);
+  pointer-events: none;
+  text-align: center;
+  transform: translate(-50%, -50%) scale(0.7);
+  transition: all 0.2s;
+}
+
+.menu:nth-child(2) {
+  left: 42%;
+}
+
+.menu:nth-child(3) {
+  left: 44%;
+}
+
+.menu .items:last-child {
+  filter: blur(0);
+  left: 50%;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}

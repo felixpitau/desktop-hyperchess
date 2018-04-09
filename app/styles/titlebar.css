@@ -1,0 +1,50 @@
+#title-bar {
+  -webkit-app-region: drag;
+  position: absolute;
+  top: 0;
+  height: 30px;
+  width: 100vw;
+  z-index: 1000;
+}
+
+#title {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 25px;
+}
+
+#title img {
+  width: 100%;
+}
+
+#title-bar-buttons {
+  -webkit-app-region: no-drag;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  width: 135px;
+}
+
+#title-bar-buttons button {
+  display: inline-block;
+  float: left;
+  clear: none;
+  height: 30px;
+  width: 45px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: all 0.2s;
+}
+
+#title-bar-buttons button:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#close-button:hover {
+  background: rgba(255, 0, 0, 0.2);
+}

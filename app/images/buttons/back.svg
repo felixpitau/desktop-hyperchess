@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="78px"
+	 height="28px" viewBox="0 0 78 28" enable-background="new 0 0 50 20" xml:space="preserve">
+	<g>
+    <line x1="4" y1="14" x2="74" y2="14" stroke="#D11" stroke-width="4"/>
+		<line x1="14" y1="6" x2="4" y2="16" stroke="#D11" stroke-width="4"/>
+		<line x1="4" y1="12" x2="14" y2="22" stroke="#D11" stroke-width="4"/>
+	</g>
+</svg>

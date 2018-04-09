@@ -1,0 +1,22 @@
+.piece {
+  width: 4.7%;
+  height: 4.7%;
+  position: absolute;
+  transition: ease all 0.4s;
+}
+
+.piece.captured {
+  visibility: hidden;
+}
+
+.piece img {
+  width: 90%;
+  height: 90%;
+  padding: 5%;
+  position: relative;
+  cursor: pointer;
+}
+
+.piece .tip {
+  visibility: hidden;
+}

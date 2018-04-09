@@ -1,0 +1,48 @@
+body {
+  background: url("../images/background-grain.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  margin: 0;
+  padding: 0;
+  font: normal 18px/100% "Roboto Mono", sans-serif;
+  overflow: hidden;
+}
+
+button {
+  background: #FFF;
+  border: solid 2px #D11;
+  border-radius: 3px;
+  clear: both;
+  cursor: pointer;
+  color: #D11;
+  display: inline-block;
+  float: left;
+  margin: 5px;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  width: 200px;
+}
+
+button:hover {
+  background: #FEE;
+}
+
+button.back {
+  background: url("../images/buttons/back.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+.layer {
+  filter: blur(2px)
+}
+
+.layer:last-of-type,
+.layer.active {
+  filter: blur(0)
+}

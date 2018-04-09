@@ -1,0 +1,36 @@
+{
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "standard",
+    "plugin:react/all"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-indent": [1, 2],
+    "react/button-has-type": [0],
+    "react/jsx-max-props-per-line": [0],
+    "react/no-set-state": [0],
+    "react/jsx-no-literals": [0],
+    "react/jsx-one-expression-per-line": [0],
+    "react/destructuring-assignment": [0],
+    "react/require-optimization": [0],
+    "react/jsx-sort-props": [0],
+    "react/prop-types": [0],
+    "react/jsx-handler-names": [0],
+    "no-unused-vars": [0]
+  }
+}
